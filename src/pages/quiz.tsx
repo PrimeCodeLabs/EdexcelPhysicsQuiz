@@ -1,5 +1,3 @@
-// src/pages/quiz.tsx
-
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Layout from "../components/Layout";
@@ -14,21 +12,20 @@ import { motion } from "framer-motion";
 
 export default function Quiz() {
   const router = useRouter();
-  const { paper } = router.query;
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [userAnswers, setUserAnswers] = useLocalStorage<number[]>(
-    `paper${paper}Answers`,
+    `quizAnswers`,
     []
   );
   const [quizQuestions, setQuizQuestions] = useLocalStorage<Question[]>(
-    `paper${paper}Questions`,
+    `quizQuestions`,
     []
   );
   const [progress, updateProgress] = useProgress("physicsProgress");
 
   useEffect(() => {
-    if (paper && questions.length === 0) {
+    if (questions.length === 0) {
       const filteredQuestions = edexcelPhysicsQuestions.filter(
         (q) =>
           q.subject === "Physics" &&
@@ -40,7 +37,7 @@ export default function Quiz() {
       setQuizQuestions(selectedQuestions);
       setUserAnswers([]);
     }
-  }, [paper, questions.length, setQuizQuestions, setUserAnswers]);
+  }, [questions.length, setQuizQuestions, setUserAnswers]);
 
   const handleAnswer = (answerIndex: number) => {
     const currentQuestion = questions[currentQuestionIndex];
@@ -52,7 +49,7 @@ export default function Quiz() {
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
     } else {
-      router.push(`/results?paper=${paper}`);
+      router.push(`/results`);
     }
   };
 

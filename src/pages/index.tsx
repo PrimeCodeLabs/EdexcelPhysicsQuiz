@@ -5,7 +5,6 @@ import { useProgress } from "../hooks/useProgress";
 import { motion } from "framer-motion";
 
 export default function Home() {
-  const [paper, setPaper] = useState<1 | 2>(1);
   const [name, setName] = useState("");
   const [showQuiz, setShowQuiz] = useState(false);
   const router = useRouter();
@@ -22,7 +21,7 @@ export default function Home() {
   const startQuiz = () => {
     if (name) {
       localStorage.setItem("userName", name);
-      router.push(`/quiz?paper=${paper}`);
+      router.push(`/quiz`);
     }
   };
 
@@ -90,26 +89,8 @@ export default function Home() {
           <>
             <h1 className="text-4xl font-bold mb-8">Welcome, {name}!</h1>
             <p className="mb-8 text-xl">
-              Test your knowledge on challenging questions for Paper 1 and 2.
+              Test your knowledge on challenging questions.
             </p>
-            <div className="mb-8">
-              <button
-                className={`mr-4 px-4 py-2 rounded-full ${
-                  paper === 1 ? "bg-blue-500 text-white" : "bg-gray-200"
-                }`}
-                onClick={() => setPaper(1)}
-              >
-                Paper 1
-              </button>
-              <button
-                className={`px-4 py-2 rounded-full ${
-                  paper === 2 ? "bg-blue-500 text-white" : "bg-gray-200"
-                }`}
-                onClick={() => setPaper(2)}
-              >
-                Paper 2
-              </button>
-            </div>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

@@ -8,9 +8,10 @@ import { motion } from "framer-motion";
 
 export default function Results() {
   const router = useRouter();
-  const { paper } = router.query;
-  const [questions] = useLocalStorage<Question[]>(`paper${paper}Questions`, []);
-  const [userAnswers] = useLocalStorage<number[]>(`paper${paper}Answers`, []);
+
+  // Use consistent keys to access the stored data
+  const [questions] = useLocalStorage<Question[]>("quizQuestions", []);
+  const [userAnswers] = useLocalStorage<number[]>("quizAnswers", []);
 
   const score = userAnswers.reduce((acc, answer, index) => {
     return acc + (answer === questions[index]?.correctAnswer ? 1 : 0);

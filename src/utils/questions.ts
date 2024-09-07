@@ -439,7 +439,7 @@ export const edexcelPhysicsQuestions = [
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
-    subtopic: "Electromagnetism",
+    subtopic: "Magnetism",
   },
   {
     text: "Which of the following waves can travel through a vacuum?",
@@ -606,7 +606,7 @@ export const edexcelPhysicsQuestions = [
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
-    subtopic: "Electromagnetism",
+    subtopic: "Magnetism",
   },
   {
     text: "What happens to the wavelength of light as it passes from air to glass?",
@@ -648,7 +648,7 @@ export const edexcelPhysicsQuestions = [
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
-    subtopic: "Electromagnetism",
+    subtopic: "Magnetism",
   },
   {
     text: "Which of the following statements is true about sound waves?",
@@ -759,7 +759,7 @@ export const edexcelPhysicsQuestions = [
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
-    subtopic: "Electromagnetism",
+    subtopic: "Magnetism",
   },
   {
     text: "Which of the following is a non-renewable energy source?",
@@ -894,7 +894,7 @@ export const edexcelPhysicsQuestions = [
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
-    subtopic: "Electromagnetism",
+    subtopic: "Magnetism",
   },
   {
     text: "What is the effect of increasing the frequency of a sound wave?",
@@ -1344,7 +1344,7 @@ export const edexcelPhysicsQuestions = [
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
-    subtopic: "Electromagnetism",
+    subtopic: "Magnetism",
   },
   {
     text: "Which of the following quantities is equal to the product of mass and velocity?",
@@ -1479,7 +1479,7 @@ export const edexcelPhysicsQuestions = [
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
-    subtopic: "Electromagnetism",
+    subtopic: "Magnetism",
   },
   {
     text: "What is the relationship between force and acceleration according to Newton's second law?",
@@ -1783,7 +1783,7 @@ export const edexcelPhysicsQuestions = [
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
-    subtopic: "Electromagnetism",
+    subtopic: "Magnetism",
   },
   {
     text: "What is the speed of light in a vacuum?",
@@ -1862,7 +1862,7 @@ export const edexcelPhysicsQuestions = [
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
-    subtopic: "Electromagnetism",
+    subtopic: "Magnetism",
   },
   {
     text: "Which material is commonly used as the core of an electromagnet?",
@@ -1871,7 +1871,7 @@ export const edexcelPhysicsQuestions = [
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
-    subtopic: "Electromagnetism",
+    subtopic: "Magnetism",
   },
   {
     text: "What is the acceleration due to gravity on Earth?",
@@ -1982,7 +1982,7 @@ export const edexcelPhysicsQuestions = [
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
-    subtopic: "Electromagnetism",
+    subtopic: "Magnetism",
   },
   {
     text: "A car accelerates from 0 to 20 m/s in 4 seconds. What is the acceleration of the car?",
@@ -2184,7 +2184,7 @@ export const edexcelPhysicsQuestions = [
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
-    subtopic: "Electromagnetism",
+    subtopic: "Magnetism",
   },
   {
     text: "Which of the following best describes a scalar quantity?",
