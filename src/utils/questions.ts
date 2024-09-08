@@ -4428,7 +4428,7 @@ export const edexcelPhysicsQuestions = [
     subtopic: "Electricity",
   },
   {
-    text: "What is the color of the live wire in a standard UK three-pin plug?",
+    text: "What is the colour of the live wire in a standard UK three-pin plug?",
     choices: JSON.stringify(["Blue", "Brown", "Green and Yellow", "Black"]),
     correctAnswer: 1,
     subject: "Physics",
@@ -5303,7 +5303,7 @@ export const edexcelPhysicsQuestions = [
     subtopic: "Waves",
   },
   {
-    text: "Which color of visible light has the longest wavelength?",
+    text: "Which colour of visible light has the longest wavelength?",
     choices: JSON.stringify(["Red", "Green", "Blue", "Violet"]),
     correctAnswer: 0,
     subject: "Physics",
@@ -5317,7 +5317,7 @@ export const edexcelPhysicsQuestions = [
       "The bending of waves around obstacles",
       "The apparent change in frequency of a wave due to relative motion",
       "The reflection of waves from a boundary",
-      "The splitting of white light into its component colors",
+      "The splitting of white light into its component colours",
     ]),
     correctAnswer: 1,
     subject: "Physics",
@@ -5735,7 +5735,7 @@ export const edexcelPhysicsQuestions = [
     text: "Which of the following best describes the process of dispersion?",
     choices: JSON.stringify([
       "The spreading out of waves as they pass through a gap",
-      "The separation of white light into its component colors",
+      "The separation of white light into its component colours",
       "The bending of light as it passes from one medium to another",
       "The reflection of light from a smooth surface",
     ]),
@@ -5746,7 +5746,7 @@ export const edexcelPhysicsQuestions = [
     subtopic: "Waves",
   },
   {
-    text: "What is the primary factor that determines the color of visible light?",
+    text: "What is the primary factor that determines the colour of visible light?",
     choices: JSON.stringify([
       "Amplitude",
       "Wavelength",
