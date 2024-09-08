@@ -24,7 +24,9 @@ export default function Home() {
     if (name) {
       localStorage.setItem("userName", name);
       router.push(
-        `/quiz${selectedSubtopic ? `?subtopic=${selectedSubtopic}` : ""}`
+        `/quiz${
+          selectedSubtopic ? `?subtopic=${selectedSubtopic}` : "?subtopic=all"
+        }`
       );
     }
   };
@@ -105,7 +107,7 @@ export default function Home() {
                 onChange={(e) => setSelectedSubtopic(e.target.value)}
                 className="border-2 border-gray-300 p-2 rounded-lg"
               >
-                {/* <option value="">All Subtopics</option> */}
+                <option value="all">All Subtopics</option>
                 {subtopics.map((subtopic) => (
                   <option key={subtopic} value={subtopic}>
                     {subtopic}

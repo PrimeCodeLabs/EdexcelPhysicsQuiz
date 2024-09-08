@@ -27,6 +27,7 @@ export default function Quiz() {
 
   useEffect(() => {
     if (questions.length === 0 && subtopic !== undefined) {
+      // Filter questions by subject, level, and exam board
       let filteredQuestions = edexcelPhysicsQuestions.filter(
         (q) =>
           q.subject === "Physics" &&
@@ -34,13 +35,16 @@ export default function Quiz() {
           q.examBoard === "Edexcel"
       );
 
-      if (subtopic && typeof subtopic === "string") {
+      // Check if a specific subtopic is selected
+      if (subtopic && typeof subtopic === "string" && subtopic !== "all") {
         filteredQuestions = filteredQuestions.filter(
           (q) => q.subtopic === subtopic
         );
       }
 
+      // Shuffle and select 10 random questions from the filtered pool
       const selectedQuestions = shuffleArray(filteredQuestions).slice(0, 10);
+      console.log(selectedQuestions);
       setQuestions(selectedQuestions);
       setQuizQuestions(selectedQuestions);
       setUserAnswers([]);
