@@ -12,6 +12,7 @@ import { motion } from "framer-motion";
 
 export default function Quiz() {
   const router = useRouter();
+  const { subtopic } = router.query;
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [userAnswers, setUserAnswers] = useLocalStorage<number[]>(
@@ -25,19 +26,26 @@ export default function Quiz() {
   const [progress, updateProgress] = useProgress("physicsProgress");
 
   useEffect(() => {
-    if (questions.length === 0) {
-      const filteredQuestions = edexcelPhysicsQuestions.filter(
+    if (questions.length === 0 && subtopic !== undefined) {
+      let filteredQuestions = edexcelPhysicsQuestions.filter(
         (q) =>
           q.subject === "Physics" &&
           q.level === "IGCSE" &&
           q.examBoard === "Edexcel"
       );
+
+      if (subtopic && typeof subtopic === "string") {
+        filteredQuestions = filteredQuestions.filter(
+          (q) => q.subtopic === subtopic
+        );
+      }
+
       const selectedQuestions = shuffleArray(filteredQuestions).slice(0, 10);
       setQuestions(selectedQuestions);
       setQuizQuestions(selectedQuestions);
       setUserAnswers([]);
     }
-  }, [questions.length, setQuizQuestions, setUserAnswers]);
+  }, [questions.length, subtopic, setQuizQuestions, setUserAnswers]);
 
   const handleAnswer = (answerIndex: number) => {
     const currentQuestion = questions[currentQuestionIndex];
@@ -73,7 +81,10 @@ export default function Quiz() {
   return (
     <Layout>
       <div className="max-w-4xl mx-auto">
-        <ProgressBar current={currentQuestionIndex + 1} total={10} />
+        <ProgressBar
+          current={currentQuestionIndex + 1}
+          total={questions.length}
+        />
         <motion.div
           key={currentQuestionIndex}
           initial={{ opacity: 0, x: 50 }}

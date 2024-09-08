@@ -3,10 +3,12 @@ import { useRouter } from "next/router";
 import Layout from "../components/Layout";
 import { useProgress } from "../hooks/useProgress";
 import { motion } from "framer-motion";
+import { edexcelPhysicsQuestions } from "../utils/questions";
 
 export default function Home() {
   const [name, setName] = useState("");
   const [showQuiz, setShowQuiz] = useState(false);
+  const [selectedSubtopic, setSelectedSubtopic] = useState("");
   const router = useRouter();
   const [progress] = useProgress("physicsProgress");
 
@@ -21,7 +23,9 @@ export default function Home() {
   const startQuiz = () => {
     if (name) {
       localStorage.setItem("userName", name);
-      router.push(`/quiz`);
+      router.push(
+        `/quiz${selectedSubtopic ? `?subtopic=${selectedSubtopic}` : ""}`
+      );
     }
   };
 
@@ -29,6 +33,10 @@ export default function Home() {
     e.preventDefault();
     setShowQuiz(true);
   };
+
+  const subtopics = Array.from(
+    new Set(edexcelPhysicsQuestions.map((q) => q.subtopic))
+  );
 
   const renderProgressBySubtopic = () => {
     return (
@@ -91,6 +99,20 @@ export default function Home() {
             <p className="mb-8 text-xl">
               Test your knowledge on challenging questions.
             </p>
+            <div className="mb-4">
+              <select
+                value={selectedSubtopic}
+                onChange={(e) => setSelectedSubtopic(e.target.value)}
+                className="border-2 border-gray-300 p-2 rounded-lg"
+              >
+                <option value="">All Subtopics</option>
+                {subtopics.map((subtopic) => (
+                  <option key={subtopic} value={subtopic}>
+                    {subtopic}
+                  </option>
+                ))}
+              </select>
+            </div>
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
