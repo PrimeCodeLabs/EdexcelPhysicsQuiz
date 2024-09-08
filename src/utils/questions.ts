@@ -624,12 +624,7 @@ export const edexcelPhysicsQuestions = [
   },
   {
     text: "Which physical quantity is represented by the area under a force-time graph?",
-    choices: JSON.stringify([
-      "Momentum",
-      "Energy Resources and Transfers",
-      "Impulse",
-      "Power",
-    ]),
+    choices: JSON.stringify(["Momentum", "Energy", "Impulse", "Power"]),
     correctAnswer: 2,
     subject: "Physics",
     level: "IGCSE",
@@ -1996,7 +1991,7 @@ export const edexcelPhysicsQuestions = [
   {
     text: "Which of the following quantities is conserved in an isolated system?",
     choices: JSON.stringify(["Force", "Energy", "Momentum", "Velocity"]),
-    correctAnswer: 2,
+    correctAnswer: 1,
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
