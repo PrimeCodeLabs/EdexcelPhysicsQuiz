@@ -1513,10 +1513,10 @@ export const edexcelPhysicsQuestions = [
     choices: JSON.stringify([
       "Longitudinal",
       "Transverse",
-      "Electromagnetic",
+      "Compression",
       "Mechanical",
     ]),
-    correctAnswer: 2,
+    correctAnswer: 1,
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
