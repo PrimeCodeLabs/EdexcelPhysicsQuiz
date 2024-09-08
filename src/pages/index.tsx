@@ -105,7 +105,7 @@ export default function Home() {
                 onChange={(e) => setSelectedSubtopic(e.target.value)}
                 className="border-2 border-gray-300 p-2 rounded-lg"
               >
-                <option value="">All Subtopics</option>
+                {/* <option value="">All Subtopics</option> */}
                 {subtopics.map((subtopic) => (
                   <option key={subtopic} value={subtopic}>
                     {subtopic}
