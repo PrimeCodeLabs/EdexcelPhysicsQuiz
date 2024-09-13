@@ -7797,7 +7797,7 @@ export const edexcelPhysicsQuestions = [
       "2.00 × 10⁵ Pa",
       "2.33 × 10⁵ Pa",
     ]),
-    correctAnswer: 1,
+    correctAnswer: 0,
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
