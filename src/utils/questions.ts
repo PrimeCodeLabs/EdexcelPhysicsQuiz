@@ -1696,6 +1696,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Forces and Motion",
+    hint: "Break the motion into three parts: acceleration, constant speed, and deceleration. Use s = ut + 1/2at² for acceleration and deceleration, and s = vt for constant speed.",
   },
   {
     text: "Which of the following quantities is a vector?",
@@ -7742,6 +7743,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Energy Resources and Transfers",
+    hint: "Use the equation: Power output = Intensity × Area × Efficiency",
   },
   {
     text: "A thermal power station has an overall efficiency of 40%. It burns coal with an energy content of 30 MJ/kg. How much coal is required to generate 1000 MWh of electrical energy?",
@@ -8420,6 +8422,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Electricity",
+    hint: "Use the equation: 1/R_total = 1/R1 + 1/R2 for parallel resistors, then use Ohm's law: I = V/R_total",
   },
   {
     text: "Explain why the resistance of a thermistor decreases as temperature increases.",
@@ -8443,6 +8446,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Electricity",
+    hint: "Use the equations: P = I²R and E = Pt",
   },
   {
     text: "Explain why a voltmeter is connected in parallel with a component in a circuit.",
@@ -8466,6 +8470,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Electricity",
+    hint: "Use the equation: R = ρL/A, where ρ is resistivity, L is length, and A is cross-sectional area",
   },
   {
     text: "Explain why the current in a series circuit is the same at all points.",
@@ -8640,6 +8645,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Forces and Motion",
+    hint: "Use Newton's Second Law: F = ma, and consider how acceleration changes when mass is doubled",
   },
   {
     text: "Calculate the weight of a 70 kg astronaut on the Moon, where the gravitational field strength is 1.6 N/kg.",
@@ -8649,6 +8655,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Forces and Motion",
+    hint: "Use the equation: Weight = mass × gravitational field strength",
   },
   {
     text: "A ball is thrown vertically upwards with an initial velocity of 20 m/s. How high does it rise? (Ignore air resistance)",
@@ -8658,6 +8665,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Forces and Motion",
+    hint: "Use the equation: h = v² / (2g), where g is 9.8 m/s²",
   },
   {
     text: "A 2 kg mass is suspended from a spring with a spring constant of 100 N/m. Calculate the extension of the spring.",
@@ -8667,6 +8675,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Forces and Motion",
+    hint: "Use Hooke's Law: F = kx, where F is the weight of the mass (m × g)",
   },
   {
     text: "A car of mass 1000 kg is travelling at 20 m/s. What is its momentum?",
@@ -9236,6 +9245,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Electricity",
+    hint: "Use the equation: Resistance = Voltage² / Power",
   },
   {
     text: "A battery with an EMF of 12V and internal resistance of 0.5Ω is connected to an external resistor. If the current in the circuit is 2A, what is the value of the external resistance?",
@@ -9254,6 +9264,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Electricity",
+    hint: "Use the equation: Power = Current² × Resistance",
   },
   {
     text: "A wire of length 10m has a resistance of 5Ω. If the wire is cut in half, what will be the resistance of each half?",
@@ -9274,6 +9285,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Energy Resources and Transfers",
+    hint: "Use the equation: Power = (mass × gravity × height) / time",
   },
   {
     text: "A 1500 W kettle takes 2 minutes to boil some water. If the efficiency of the kettle is 90%, how much energy is transferred to the water?",
@@ -9301,6 +9313,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Energy Resources and Transfers",
+    hint: "Use the equation: ΔKE = 1/2 × m × (v₂² - v₁²)",
   },
   {
     text: "A solar panel with an area of 2 m² receives solar radiation with an intensity of 1000 W/m². If the panel has an efficiency of 18%, calculate the electrical power output.",
@@ -9330,6 +9343,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Forces and Motion",
+    hint: "Use the equation: distance = (initial velocity + final velocity) × time / 2",
   },
   {
     text: "A force of 50 N acts on a mass of 10 kg for 5 seconds. If the mass was initially at rest, calculate its final velocity.",
@@ -9368,6 +9382,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Magnetism and Electromagnetism",
+    hint: "Use the equation: Force = Magnetic field strength × Current × Length",
   },
   {
     text: "A solenoid has 500 turns and is 25 cm long. If it carries a current of 4A, calculate the magnetic field strength inside the solenoid. (μ₀ = 4π × 10⁻⁷ T·m/A)",
@@ -9409,12 +9424,13 @@ export const edexcelPhysicsQuestions = [
   // Radioactivity and Particles
   {
     text: "A radioactive sample has an initial activity of 800 Bq. After 30 days, its activity is 100 Bq. Calculate its half-life.",
-    choices: JSON.stringify(["8 days", "10 days", "12 days", "14 days"]),
-    correctAnswer: 2,
+    choices: JSON.stringify(["10 days", "12 days", "14 days", "16 days"]),
+    correctAnswer: 1,
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Radioactivity and Particles",
+    hint: "Use the equation: (1/2)ⁿ = (final activity / initial activity), where n is the number of half-lives",
   },
   {
     text: "Calculate the number of neutrons in an atom of uranium-238.",
@@ -9514,8 +9530,6 @@ export const edexcelPhysicsQuestions = [
     examBoard: "Edexcel",
     subtopic: "Solids, Liquids and Gases",
   },
-
-  // Waves
   {
     text: "A wave has a frequency of 250 Hz and a wavelength of 1.2 m. Calculate its speed.",
     choices: JSON.stringify(["250 m/s", "275 m/s", "300 m/s", "325 m/s"]),
@@ -9524,6 +9538,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Waves",
+    hint: "Use the equation: Wave speed = Frequency × Wavelength",
   },
   {
     text: "Calculate the angle of refraction when light passes from air (n = 1.0) to water (n = 1.33) at an angle of incidence of 45°.",
@@ -9777,6 +9792,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Magnetism and Electromagnetism",
+    hint: "Use F = BIL sin θ, where B is magnetic field strength, I is current, L is length, and θ is the angle. Remember to convert cm to m.",
   },
   {
     text: "A solenoid has 500 turns and is 25 cm long. If it carries a current of 2A, calculate the magnetic field strength at its center. (μ₀ = 4π × 10⁻⁷ T·m/A)",
@@ -9786,6 +9802,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Magnetism and Electromagnetism",
+    hint: "Use the equation: B = μ₀nI, where n is the number of turns per unit length",
   },
   {
     text: "A transformer has 1000 turns on its primary coil and 250 turns on its secondary coil. If the input voltage is 230V and the output current is 2A, calculate the input current assuming 100% efficiency.",
@@ -9795,6 +9812,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Magnetism and Electromagnetism",
+    hint: "Use the transformer equation Vp/Vs = Np/Ns = Is/Ip, and the power equation P = VI. Remember that input power equals output power at 100% efficiency.",
   },
   {
     text: "A wire 40 cm long moves at right angles to a magnetic field of flux density 0.3 T with a speed of 5 m/s. Calculate the EMF induced in the wire.",
@@ -9804,6 +9822,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Magnetism and Electromagnetism",
+    hint: "Use the equation EMF = Blv, where B is magnetic field strength, l is length of wire, and v is velocity. Remember to convert cm to m.",
   },
   {
     text: "A transformer has an efficiency of 96%. If the input power is 5000W and the output voltage is 120V, calculate the output current.",
@@ -9813,6 +9832,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Magnetism and Electromagnetism",
+    hint: "First calculate the output power using efficiency. Then use P = VI to find the current.",
   },
 
   // Radioactivity and Particles
@@ -9824,6 +9844,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Radioactivity and Particles",
+    hint: "Use the equation A = A₀ (1/2)ⁿ, where n is the number of half-lives. Find n first, then divide the total time by n.",
   },
   {
     text: "Calculate the number of neutrons in an atom of uranium-238.",
@@ -9833,6 +9854,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Radioactivity and Particles",
+    hint: "Number of neutrons = Mass number - Atomic number",
   },
   {
     text: "A radioactive isotope has a half-life of 5 days. What fraction of the original sample will remain after 20 days?",
@@ -9842,6 +9864,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Radioactivity and Particles",
+    hint: "Determine how many half-lives have passed in 20 days, then use (1/2)ⁿ where n is the number of half-lives.",
   },
   {
     text: "Which of the following equations correctly represents alpha decay of uranium-238?",
@@ -9856,6 +9879,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Radioactivity and Particles",
+    hint: "In alpha decay, the mass number decreases by 4 and the atomic number decreases by 2. Look for the equation that follows this rule.",
   },
   {
     text: "In a nuclear reactor, what is the main function of the control rods?",
@@ -9870,8 +9894,8 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Radioactivity and Particles",
+    hint: "Consider how the rate of the nuclear reaction needs to be controlled to prevent it from getting out of control.",
   },
-
   // Solids, Liquids and Gases
   {
     text: "A gas occupies a volume of 3.0 L at a pressure of 2.0 atm. What will be its volume at 6.0 atm if the temperature remains constant?",
@@ -9881,6 +9905,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Solids, Liquids and Gases",
+    hint: "Use Boyle's Law: P₁V₁ = P₂V₂",
   },
   {
     text: "Calculate the pressure at the bottom of an ocean that is 4000 m deep. (Density of seawater = 1025 kg/m³, g = 9.8 m/s²)",
@@ -9890,6 +9915,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Solids, Liquids and Gases",
+    hint: "Use the formula P = ρgh, where ρ is density, g is gravitational acceleration, and h is depth. Don't forget to add atmospheric pressure.",
   },
   {
     text: "A gas has a volume of 5.0 L at 27°C. What will be its volume at 127°C if the pressure remains constant?",
@@ -9899,6 +9925,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Solids, Liquids and Gases",
+    hint: "Use Charles's Law: V₁/T₁ = V₂/T₂. Remember to convert temperatures to Kelvin.",
   },
   {
     text: "Calculate the density of a sphere with a mass of 180 g and a radius of 3 cm.",
@@ -9913,6 +9940,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Solids, Liquids and Gases",
+    hint: "Use the density formula ρ = m/V, where m is mass and V is volume. Calculate the volume of the sphere using V = (4/3)πr³.",
   },
   {
     text: "A gas is cooled from 400 K to 200 K at constant volume. By what factor does its pressure decrease?",
@@ -9922,8 +9950,8 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Solids, Liquids and Gases",
+    hint: "Use Gay-Lussac's Law: P₁/T₁ = P₂/T₂. The factor decrease is T₁/T₂.",
   },
-
   // Waves
   {
     text: "A wave has a frequency of 250 Hz and a wavelength of 1.2 m. Calculate its speed.",
@@ -9933,6 +9961,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Waves",
+    hint: "Use the wave equation: wave speed = frequency × wavelength.",
   },
   {
     text: "Calculate the angle of refraction when light passes from air (n = 1.0) to water (n = 1.33) at an angle of incidence of 45°.",
@@ -9942,6 +9971,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Waves",
+    hint: "Use Snell's Law: n₁sin(θ₁) = n₂sin(θ₂)",
   },
   {
     text: "A sound wave has a wavelength of 0.5 m in air. What is its frequency? (Speed of sound in air = 340 m/s)",
@@ -9951,6 +9981,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Waves",
+    hint: "Use the wave equation: v = fλ, where v is speed, f is frequency, and λ is wavelength",
   },
   {
     text: "Calculate the critical angle for light passing from glass (n = 1.5) to air (n = 1.0).",
@@ -9960,6 +9991,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Waves",
+    hint: "Use the formula: sin(critical angle) = n₂/n₁, where n₁ > n₂. Then find the inverse sine.",
   },
   {
     text: "A radio station broadcasts at 105.5 MHz. What is the wavelength of these radio waves? (Speed of light = 3 × 10⁸ m/s)",
@@ -9969,6 +10001,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Waves",
+    hint: "Use the wave equation: speed = frequency × wavelength. Rearrange to solve for wavelength. Remember to convert MHz to Hz.",
   },
   {
     text: "A star has an apparent magnitude of 2.5 and an absolute magnitude of -1.5. Calculate its distance in parsecs.",
@@ -10308,6 +10341,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Forces and Motion",
+    hint: "Break the motion into three parts: acceleration, constant speed, and deceleration. Use s = ut + 1/2at² for acceleration and deceleration, and s = vt for constant speed.",
   },
   {
     text: "A force of 60 N acts on a mass of 12 kg for 6 seconds. If the mass was initially moving at 3 m/s in the opposite direction to the force, calculate its final velocity.",
@@ -10317,6 +10351,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Forces and Motion",
+    hint: "Use F = ma to find acceleration, then use v = u + at to find final velocity. Remember to account for the initial velocity being in the opposite direction.",
   },
   {
     text: "A 600 g mass is whirled in a horizontal circle of radius 0.9 m at a speed of 5 m/s. Calculate the angle the string makes with the vertical.",
@@ -10326,6 +10361,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Forces and Motion",
+    hint: "Use tan θ = v²/rg to find the angle. Remember to convert mass to kg and use g = 9.8 m/s².",
   },
   {
     text: "A 2.5 kg trolley moving at 6 m/s collides head-on with a stationary 3.5 kg trolley. If the collision is perfectly inelastic, calculate the change in kinetic energy of the system.",
@@ -10335,6 +10371,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Forces and Motion",
+    hint: "Calculate initial kinetic energy, then use conservation of momentum to find final velocity. Calculate final kinetic energy and subtract from initial.",
   },
   {
     text: "A ball is thrown vertically upwards with an initial velocity of 22 m/s. How high does it rise? (Ignore air resistance)",
@@ -10344,6 +10381,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Forces and Motion",
+    hint: "Use the equation v² = u² + 2as, where final velocity (v) is zero. Rearrange to find s (height).",
   },
   {
     text: "A 2.5 kg mass is suspended from a spring with a spring constant of 150 N/m. Calculate the extension of the spring.",
@@ -10396,6 +10434,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Magnetism and Electromagnetism",
+    hint: "Use F = BIL sin θ, where θ is the angle between the wire and the field. Remember to convert length to metres.",
   },
   {
     text: "A solenoid has 600 turns and is 30 cm long. If it carries a current of 2.5A, calculate the magnetic field strength at its center. (μ₀ = 4π × 10⁻⁷ T·m/A)",
@@ -10414,6 +10453,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Magnetism and Electromagnetism",
+    hint: "Use the transformer equation Vp/Vs = Np/Ns = Is/Ip. Then account for efficiency: Pin = Pout / efficiency.",
   },
   {
     text: "A wire 50 cm long moves at right angles to a magnetic field of flux density 0.35 T with a speed of 6 m/s. Calculate the EMF induced in the wire.",
@@ -10423,6 +10463,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Magnetism and Electromagnetism",
+    hint: "Use the equation EMF = Blv, where B is magnetic flux density, l is length of wire, and v is velocity. Remember to convert length to metres.",
   },
   {
     text: "A transformer has an efficiency of 97%. If the input power is 5500W and the output voltage is 110V, calculate the output current.",
@@ -10432,6 +10473,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Magnetism and Electromagnetism",
+    hint: "Remember that power in = power out ÷ efficiency. Then use P = IV.",
   },
   {
     text: "A circular coil of wire with 60 turns and a radius of 6cm is placed in a magnetic field of 0.25T. If the plane of the coil is perpendicular to the field, calculate the magnetic flux through the coil.",
@@ -10446,6 +10488,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Magnetism and Electromagnetism",
+    hint: "Use the equation: magnetic flux = number of turns × magnetic field strength × area of coil. Remember to calculate area using πr² and convert cm to m.",
   },
   {
     text: "A charged particle moves with a velocity of 3 × 10⁶ m/s perpendicular to a magnetic field of 0.4T. If the particle experiences a force of 4.8 × 10⁻¹³ N, calculate its charge.",
@@ -10498,6 +10541,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Radioactivity and Particles",
+    hint: "Use the equation (1/2)ⁿ = (final activity / initial activity), where n is the number of half-lives.",
   },
   {
     text: "Calculate the number of neutrons in an atom of uranium-235.",
@@ -10590,6 +10634,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Radioactivity and Particles",
+    hint: "Convert mass defect to energy using E = mc², then divide by the number of nucleons.",
   },
   {
     text: "What is the purpose of a control rod in a nuclear fission reactor?",
@@ -10617,13 +10662,19 @@ export const edexcelPhysicsQuestions = [
     subtopic: "Solids, Liquids and Gases",
   },
   {
-    text: "Calculate the pressure at the bottom of a lake that is 35 m deep. (Density of water = 1000 kg/m³, g = 9.8 m/s²)",
-    choices: JSON.stringify(["294 kPa", "343 kPa", "392 kPa", "441 kPa"]),
-    correctAnswer: 2,
+    text: "Calculate the pressure at the bottom of a lake that is 25 m deep. (Density of water = 1000 kg/m³, g = 9.8 m/s²)",
+    choices: JSON.stringify([
+      "122.5 kPa",
+      "245.0 kPa",
+      "367.5 kPa",
+      "490.0 kPa",
+    ]),
+    correctAnswer: 1,
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Solids, Liquids and Gases",
+    hint: "Use the equation: Pressure = Density × g × Depth",
   },
   {
     text: "A gas has a volume of 6.0 L at 27°C. What will be its volume at 147°C if the pressure remains constant?",
@@ -10697,6 +10748,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Solids, Liquids and Gases",
+    hint: "Use the ideal gas law PV = nRT twice, once for each condition, then solve for the unknown pressure.",
   },
   {
     text: "An ice cube with a mass of 75g at 0°C is dropped into 250g of water at 25°C. The specific heat capacity of water is 4200 J/kg°C and the specific latent heat of fusion of ice is 334 kJ/kg. Calculate the final temperature of the mixture, assuming no heat is lost to the surroundings.",
@@ -10717,6 +10769,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Waves",
+    hint: "Use the wave equation v = fλ, where v is speed, f is frequency, and λ is wavelength.",
   },
   {
     text: "Calculate the angle of refraction when light passes from air (n = 1.0) to glass (n = 1.5) at an angle of incidence of 35°.",
@@ -10726,6 +10779,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Waves",
+    hint: "Apply Snell's Law: n₁sin(θ₁) = n₂sin(θ₂), where n is the refractive index and θ is the angle.",
   },
   {
     text: "A sound wave has a wavelength of 0.68 m in air. What is its frequency? (Speed of sound in air = 340 m/s)",
@@ -10735,6 +10789,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Waves",
+    hint: "Use the wave equation: speed = frequency × wavelength. Rearrange to solve for frequency.",
   },
   {
     text: "Calculate the critical angle for light passing from water (n = 1.33) to air (n = 1.0).",
@@ -10744,6 +10799,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Waves",
+    hint: "Use the formula sin(θc) = n₂/n₁, where n₁ > n₂.",
   },
   {
     text: "A radio station broadcasts at 102.5 MHz. What is the wavelength of these radio waves? (Speed of light = 3 × 10⁸ m/s)",
@@ -10753,6 +10809,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Waves",
+    hint: "Use the wave equation: speed = frequency × wavelength. Rearrange to solve for wavelength. Remember to convert MHz to Hz.",
   },
   {
     text: "Calculate the magnification of an image formed by a convex lens with a focal length of 15 cm when the object is placed 20 cm from the lens.",
@@ -10762,6 +10819,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Waves",
+    hint: "Use the lens equation: 1/f = 1/u + 1/v, where f is focal length, u is object distance, and v is image distance. Then use magnification = v/u.",
   },
   {
     text: "A wave travels 450 m in 0.75 seconds. If its wavelength is 3 m, what is its frequency?",
@@ -10771,6 +10829,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Waves",
+    hint: "First calculate the wave speed using distance and time. Then use the wave equation: speed = frequency × wavelength. Solve for frequency.",
   },
   {
     text: "Calculate the change in wavelength for a source moving at 25 m/s towards an observer, emitting a sound wave with a frequency of 440 Hz. (Speed of sound in air = 340 m/s)",
@@ -10780,6 +10839,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Waves",
+    hint: "Use the Doppler effect equation: Δλ = λ(v/c), where λ is the original wavelength, v is the relative velocity, and c is the speed of sound.",
   },
   {
     text: "A ripple tank produces waves with a frequency of 12 Hz. If the wavelength is 2.5 cm, calculate the speed of the waves.",
@@ -10789,6 +10849,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Waves",
+    hint: "Use the wave equation: speed = frequency × wavelength. Remember to convert cm to m for wavelength.",
   },
   {
     text: "An ultrasound wave has a frequency of 40 kHz and a wavelength of 8.5 mm in tissue. Calculate the speed of the wave in the tissue.",
@@ -10798,5 +10859,6 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Waves",
+    hint: "Use the wave equation: speed = frequency × wavelength. Remember to convert kHz to Hz and mm to m.",
   },
 ];

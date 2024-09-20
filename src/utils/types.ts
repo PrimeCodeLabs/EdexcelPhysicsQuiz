@@ -6,6 +6,7 @@ export interface Question {
   level: string;
   examBoard: string;
   subtopic: string;
+  hint?: string;
 }
 
 export interface UserProgress {
