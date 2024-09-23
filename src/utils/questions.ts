@@ -8404,6 +8404,7 @@ export const edexcelPhysicsQuestions = [
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Electricity",
+    hint: "Remember the formula for power in terms of current and resistance: P = I²R",
   },
   {
     text: "In a series circuit with three resistors of 2Ω, 4Ω, and 6Ω, what fraction of the total voltage is across the 4Ω resistor?",
@@ -10186,12 +10187,13 @@ export const edexcelPhysicsQuestions = [
   },
   {
     text: "A 15V battery is connected to two resistors in parallel: 4Ω and 8Ω. Calculate the total current in the circuit.",
-    choices: JSON.stringify(["3.75 A", "4.5 A", "5.25 A", "6 A"]),
+    choices: JSON.stringify(["3.75 A", "4.5 A", "7.5 A", "6 A"]),
     correctAnswer: 2,
     subject: "Physics",
     level: "IGCSE",
     examBoard: "Edexcel",
     subtopic: "Electricity",
+    hint: "First, calculate the total resistance of the parallel circuit using 1/R_total = 1/R1 + 1/R2, then use Ohm's law to find the current",
   },
   {
     text: "Calculate the energy transferred when a current of 6A flows through a 12Ω resistor for 3 minutes.",
