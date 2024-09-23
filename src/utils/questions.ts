@@ -9645,7 +9645,7 @@ export const edexcelPhysicsQuestions = [
   // Electricity
   {
     text: "A circuit consists of a 12 V battery and three resistors in series: 2 Ω, 3 Ω, and 5 Ω. Calculate the power dissipated in the 3 Ω resistor.",
-    choices: JSON.stringify(["5.4 W", "7.2 W", "10.8 W", "14.4 W"]),
+    choices: JSON.stringify(["4.3 W", "7.2 W", "10.8 W", "14.4 W"]),
     correctAnswer: 1,
     subject: "Physics",
     level: "IGCSE",
